@@ -1,0 +1,7 @@
+[core]
+    autostage = true
+    remote = read-write
+['remote "read"']
+    url = https://winequality-red.s3.amazonaws.com/
+['remote "read-write"']
+    url = s3://winequality-red/
