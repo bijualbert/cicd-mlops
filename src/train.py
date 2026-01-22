@@ -38,7 +38,7 @@ def save_model(model, path: str, X_train: pd.DataFrame):
 def train() -> None:
     """Train model and save it"""
     params = dvc.api.params_show()
-    with Live(save_dvc_exp=True) as live:
+    with Live(save_dvc_exp=False) as live:
         X_train = load_data(f"{params['data']['intermediate']}/X_train.pkl")
         y_train = load_data(f"{params['data']['intermediate']}/y_train.pkl")
         pipeline = create_pipeline()

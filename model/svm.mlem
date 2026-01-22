@@ -1,6 +1,6 @@
 artifacts:
   data:
-    hash: ba0c50b412f6b5d5c5bd6c0ef163b1a1
+    hash: cb13a7b70235b38356e62421caab1d86
     size: 148163
     uri: svm
 call_orders:
@@ -54,9 +54,9 @@ processors:
     type: sklearn_pipeline
 requirements:
 - module: numpy
-  version: 1.24.2
+  version: 1.26.4
 - module: pandas
-  version: 1.5.3
+  version: 3.0.0
 - module: sklearn
   package_name: scikit-learn
-  version: 1.2.2
+  version: 1.3.2

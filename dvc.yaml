@@ -2,34 +2,36 @@ stages:
   process:
     cmd: python src/process_data.py
     deps:
-      - data/raw
-      - src/process_data.py
+    - data/raw
+    - src/process_data.py
     params:
-      - process
-      - data
+    - process
+    - data
     outs:
-      - data/intermediate
+    - data/intermediate
   train:
     cmd: python src/train.py
     deps:
-      - data/intermediate
-      - src/train.py
+    - data/intermediate
+    - src/train.py
     params:
-      - data
-      - model
-      - train
+    - data
+    - model
+    - train
     outs:
-      - model/svm
-      - model/svm.mlem:
-          cache: false
+    - model/svm
+    - model/svm.mlem:
+        cache: false
   evaluate:
     cmd: python src/evaluate.py
     deps:
-      - model/svm
-      - data/intermediate 
-      - src/evaluate.py
+    - model/svm
+    - data/intermediate
+    - src/evaluate.py
     params:
-      - data
-      - model
+    - data
+    - model
     metrics:
-      - dvclive/metrics.json
+    - dvclive/metrics.json
+params:
+- dvclive/params.yaml

@@ -24,10 +24,19 @@ This is a sample project demonstrating CI/CD (Continuous Integration/Continuous 
 ## Running the Project
 The project runs a FastAPI server on port 5000 that displays the project status and API documentation.
 
-### Prerequisites
-To fully run the ML pipeline, you need:
-1. AWS credentials for S3 access (to pull data/models)
-2. Run `dvc pull -r read` to fetch data and models from remote storage
+### Current State
+- Wine quality dataset downloaded and processed
+- SVM model trained using GridSearchCV (best accuracy: ~58%)
+- FastAPI web interface running on port 5000
+
+### Running the Pipeline Manually
+```bash
+# Process the data
+python3.11 src/process_data.py
+
+# Train the model
+python3.11 src/train.py
+```
 
 ### Running Experiments
 ```bash
