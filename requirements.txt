@@ -657,3 +657,14 @@ zipp==3.15.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+deepchecks
+docker
+dvc
+dvc-s3
+dvclive
+fastapi
+mlem
+pandas
+pytest
+scikit-learn
+uvicorn

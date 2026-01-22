@@ -13,3 +13,23 @@ data/intermediate
 data/final
 venv
 .DS_Store
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pythonlibs/
+__pycache__/
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
