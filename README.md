@@ -6,9 +6,9 @@ CI/CD for Machine Learning Models
 
 Sample project for:
 
-[Build Reliable Machine Learning Pipelines with Continuous Integration](https://towardsdatascience.com/build-reliable-machine-learning-pipelines-with-continuous-integration-ea822eb09bf6?sk=ae3326395e0c5bb219523a1c2014b1be)
+[Build Reliable Machine Learning Pipelines with Continuous Integration](https://towardsdatascience.com/a-hands-on-tutorial-to-continuous-deployment-pipelines-for-ml-based-web-apps-on-google-cloud-ba3957c87bc1/)
 
-[Automate Machine Learning Deployment with GitHub Actions](https://towardsdatascience.com/automate-machine-learning-deployment-with-github-actions-f752766981b1?sk=6e234bb505e6bc426bb4760e4b20da1b)
+[Automate Machine Learning Deployment with GitHub Actions](https://towardsdatascience.com/ci-cd-for-machine-learning-model-training-with-github-actions-24b6a28cab96/)
 
 </div> 
   
