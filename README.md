@@ -29,7 +29,7 @@ CI/CD (Continuous Integration/Continuous Deployment) is an essential practice fo
 - Merged changes trigger CD pipeline for model deployment.
 
 ## Tools Used in This Project
-* [DVC](https://dvc.org/): Version data and experiments - [article](https://towardsdatascience.com/introduction-to-dvc-data-version-control-tool-for-machine-learning-projects-7cb49c229fe0)
+* [DVC](https://dvc.org/): Version data and experiments - [article](https://towardsdatascience.com/the-dvc-guide-data-version-control-for-all-your-data-science-projects-382d5b5aab00/)
 * [CML](https://cml.dev/): Post a comment to the pull request showing the metrics and parameters of an experiment
 * [MLEM](https://mlem.ai/): Deploy ML models
 
